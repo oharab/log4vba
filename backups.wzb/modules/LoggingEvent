@@ -1,0 +1,18 @@
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = False
+Option Explicit
+
+Public LoggerName As String
+Public Level As Level
+Public Username As String
+Public TimeStamp As Date
+Public NetworkUser As String
+Public MachineName As String
+Public IPAddress As String
+Public Message As String
+Public ErrorNumber As Long
+Public ErrorDescription As String
+Public ErrorSource As String
+Public ErrorLine As Long
